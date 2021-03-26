@@ -4,7 +4,6 @@ import numpy
 determined_array = numpy.array(range(100))
 print(numpy.sum(determined_array))
 # Подзадание №2: Используя numpy, посчитать сумму ряда 0-input(100)
-import numpy
 undetermined_array = numpy.array(range(int(input())))
 print(numpy.sum(undetermined_array))
 # Подзадание №3: Используя numpy, посчитать среднее среди 100 случайных чисел
