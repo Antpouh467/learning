@@ -10,4 +10,4 @@ print(numpy.sum(undetermined_array))
 random_array = numpy.random.rand(1,100)
 # т.к. не было указано, какой тип чисел, случайные числа от 0 до 1 тоже должны засчитаться
 print("Сгенерированные числа: ", random_array)
-print("Сумма: ", numpy.sum(random_array))
+print("Сумма: ", numpy.mean(random_array))
