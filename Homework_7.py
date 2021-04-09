@@ -81,9 +81,9 @@ queries = [
 # в сравниваемых в рамках "if" значениях есть пробелы - это чуть более
 # сильное сравнение, только для этого
 
-exact_people = {}
 with open('Homework_7_results.txt', 'w') as f:
     for find_input in queries:
+        exact_people = {}
         print('Запрос (точный): ', find_input, file=f)
         if find_input.find("имя ") == 0:
             # find_value - обрезанная строка (включая пробел после параметра
@@ -144,8 +144,8 @@ with open('Homework_7_results.txt', 'w') as f:
 
 # with open('out.txt', 'w') as f:
 #     print('Filename:', filename, file=f)
-    exact_people = {}
     for find_input in queries:
+        exact_people = {}
         print('Запрос (неточный): ', find_input, file=f)
         if find_input.find("имя ") == 0:
             # find_value - обрезанная строка (включая пробел после параметра
